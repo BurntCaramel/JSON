@@ -41,8 +41,8 @@
 		B21CDF4F1CBE072500118821 /* JSONMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21CDF541CBE072500118821 /* JSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
 		B21CDF561CBE072500118821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B21CDF5F1CBE077D00118821 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Source; path = ../Source; sourceTree = "<group>"; };
-		B21CDF611CBE07B700118821 /* Foundation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Foundation; path = ../Foundation; sourceTree = "<group>"; };
+		B21CDF5F1CBE077D00118821 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		B21CDF611CBE07B700118821 /* Foundation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Foundation; sourceTree = "<group>"; };
 		B21CDF681CBE07D400118821 /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21CDF6A1CBE07D400118821 /* JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = ../JSON.h; sourceTree = "<group>"; };
 		B21CDF6C1CBE07D400118821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,8 +115,7 @@
 				B21CDF481CBE072500118821 /* JSON.h */,
 				B21CDF4A1CBE072500118821 /* Info.plist */,
 			);
-			name = Mac;
-			path = JSON;
+			path = Mac;
 			sourceTree = "<group>";
 		};
 		B21CDF531CBE072500118821 /* Mac Tests */ = {
@@ -135,8 +134,7 @@
 				B21CDF6A1CBE07D400118821 /* JSON.h */,
 				B21CDF6C1CBE07D400118821 /* Info.plist */,
 			);
-			name = iOS;
-			path = JSON;
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		B21CDF751CBE07D400118821 /* iOS Tests */ = {
@@ -600,6 +598,7 @@
 				B21CDF5B1CBE072500118821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B21CDF5C1CBE072500118821 /* Build configuration list for PBXNativeTarget "JSONMacTests" */ = {
 			isa = XCConfigurationList;
@@ -608,6 +607,7 @@
 				B21CDF5E1CBE072500118821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B21CDF791CBE07D400118821 /* Build configuration list for PBXNativeTarget "JSONiOS" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +616,7 @@
 				B21CDF7B1CBE07D400118821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B21CDF7C1CBE07D400118821 /* Build configuration list for PBXNativeTarget "JSONiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +625,7 @@
 				B21CDF7E1CBE07D400118821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
